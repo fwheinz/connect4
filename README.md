@@ -22,5 +22,14 @@ For the computer opponent, following strategies are feasible:
 A more sophisticated strategy is the minimax-algorithm:
 https://de.wikipedia.org/wiki/Minimax-Algorithmus
 
+# Submitting your modifications
+
+It would be great if you submit your modified game for review. If you want to receive feedback,
+put your email address into a comment inside the source file along with a
+short description of the changes you have made. To perform the submission, use the command
+
+make submit
+
+
 Good luck ;)
 
