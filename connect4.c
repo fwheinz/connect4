@@ -3,8 +3,8 @@
 #include "gevents.h"
 
 /* Canvas dimensions */
-#define WIDTH 800
-#define HEIGHT 650
+#define WIDTH 400
+#define HEIGHT 325
 #define MARGIN 10
 
 /* Board dimensions */
@@ -221,7 +221,7 @@ GWindow createCanvas (void) {
 
 int main (void) {
     GWindow gw = createCanvas();
-    sleep(1); // Avoid a drawing bug
+    pause(1000); // Avoid a drawing bug
     drawBoard(gw);
     play(gw);
 
