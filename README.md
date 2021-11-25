@@ -6,6 +6,8 @@ The popular boardgame Connect 4
 
 - Fix a bug: The last column cannot be filled
 
+- Test with other field sizes and win conditions (connect 5 for example)
+
 - Check win conditions on diagonals from upper right to lower left
 - Check draw condition when the field is full and no player has won
 - Show which player's turn it is
