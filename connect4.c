@@ -1,6 +1,6 @@
-#include "gwindow.h"
-#include "gobjects.h"
-#include "gevents.h"
+#include "include/gwindow.h"
+#include "include/gobjects.h"
+#include "include/gevents.h"
 
 /* Canvas dimensions */
 #define WIDTH 400
