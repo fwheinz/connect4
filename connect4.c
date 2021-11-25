@@ -221,6 +221,7 @@ GWindow createCanvas (void) {
 
 int main (void) {
     GWindow gw = createCanvas();
+    sleep(1); // Avoid a drawing bug
     drawBoard(gw);
     play(gw);
 
